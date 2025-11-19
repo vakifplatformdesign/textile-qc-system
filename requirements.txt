@@ -11,10 +11,17 @@ Werkzeug==3.0.1
 numpy==1.26.4
 pandas==2.1.4
 
+<<<<<<< HEAD
 # Image Processing (headless for server deployment)
 opencv-python-headless==4.9.0.80
 Pillow==10.2.0
 scikit-image==0.22.0
+=======
+# Image Processing (use headless version for server deployment)
+opencv-python-headless==4.8.1.78
+Pillow==10.0.1
+scikit-image==0.21.0
+>>>>>>> e13fc55a1f9ec7fccdf42f9b44e9589e5b2851c5
 
 # Scientific Analysis
 scipy==1.11.4
