@@ -1,0 +1,26 @@
+# Flask Web Framework
+Flask==2.3.3
+Werkzeug==2.3.7
+
+# Core Scientific Computing
+numpy==1.24.3
+pandas==2.0.3
+
+# Image Processing
+opencv-python==4.8.1.78
+Pillow==10.0.1
+scikit-image==0.21.0
+
+# Scientific Analysis
+scipy==1.11.3
+PyWavelets==1.4.1
+
+# PDF Generation
+reportlab==4.0.6
+
+# Web Server (for production)
+gunicorn==21.2.0
+
+# Utilities
+python-dateutil==2.8.2
+
