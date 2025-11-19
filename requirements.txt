@@ -1,26 +1,30 @@
+# Build tools (must be first)
+setuptools>=65.0.0
+wheel>=0.38.0
+pip>=23.0.0
+
 # Flask Web Framework
-Flask==2.3.3
-Werkzeug==2.3.7
+Flask==3.0.0
+Werkzeug==3.0.1
 
-# Core Scientific Computing
-numpy==1.24.3
-pandas==2.0.3
+# Core Scientific Computing (Python 3.11 compatible)
+numpy==1.26.4
+pandas==2.1.4
 
-# Image Processing
-opencv-python==4.8.1.78
-Pillow==10.0.1
-scikit-image==0.21.0
+# Image Processing (headless for server deployment)
+opencv-python-headless==4.9.0.80
+Pillow==10.2.0
+scikit-image==0.22.0
 
 # Scientific Analysis
-scipy==1.11.3
-PyWavelets==1.4.1
+scipy==1.11.4
+PyWavelets==1.5.0
 
 # PDF Generation
-reportlab==4.0.6
+reportlab==4.0.9
 
 # Web Server (for production)
 gunicorn==21.2.0
 
 # Utilities
 python-dateutil==2.8.2
-
